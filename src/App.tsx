@@ -1,17 +1,13 @@
 
 import React from 'react';
-import ButtonStyle from './ButtonStyle';
+import AddUser from './AddUser';
 
-const myButtonStyle={
-  color:'white',
-  backgroundColor:"grey",
-  height:'500px',
-}
+
 
 function App() {
   return (
     <div>
-    <ButtonStyle btnStyle={myButtonStyle} />
+ <AddUser />
     </div>
   )
 }
